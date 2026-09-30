@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-surface":"#191c1e","surface-container-low":"#f2f4f6","surface-tint":"#4c42e9","secondary-fixed":"#dae2fd","inverse-primary":"#c3c0ff","on-tertiary-fixed":"#002113","surface-container":"#eceef0","outline-variant":"#c7c4d8","surface-bright":"#f7f9fb","on-primary-fixed-variant":"#321ed2","surface-container-highest":"#e0e3e5","on-tertiary-fixed-variant":"#005236","outline":"#777587","on-secondary-container":"#5c647a","tertiary-container":"#00845a","background":"#f7f9fb","on-primary":"#ffffff","on-surface-variant":"#464555","surface-container-lowest":"#ffffff","secondary-fixed-dim":"#bec6e0","on-primary-fixed":"#0f0069","primary":"#493ee5","surface":"#f7f9fb","on-tertiary-container":"#eefff3","inverse-surface":"#2d3133","primary-fixed-dim":"#c3c0ff","secondary-container":"#dae2fd","surface-variant":"#e0e3e5","surface-dim":"#d8dadc","on-error":"#ffffff","error-container":"#ffdad6","surface-container-high":"#e6e8ea","on-primary-container":"#fefaff","inverse-on-surface":"#eff1f3","tertiary-fixed-dim":"#4edea3","on-error-container":"#93000a","tertiary-fixed":"#6ffbbe","tertiary":"#006847","on-secondary":"#ffffff","primary-fixed":"#e2dfff","on-secondary-fixed":"#131b2e","on-background":"#191c1e","primary-container":"#635bff","secondary":"#565e74","on-secondary-fixed-variant":"#3f465c","on-tertiary":"#ffffff","error":"#ba1a1a"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-md":"1rem",gutter:"1.5rem","margin-mobile":"1rem","space-xl":"2rem","space-xs":"0.25rem",margin:"2rem","gutter-mobile":"1rem","space-sm":"0.5rem","space-lg":"1.5rem"},fontFamily:{"label-sm":["Inter"],"body-sm":["Inter"],"headline-lg":["Plus Jakarta Sans"],"body-lg":["Inter"],"display-hero":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"body-md":["Inter"],"label-md":["Inter"],"numeric-metric":["Plus Jakarta Sans"],"display-hero-mobile":["Plus Jakarta Sans"]},fontSize:{"label-sm":["11px",{lineHeight:"14px",fontWeight:"600"}],"body-sm":["12px",{lineHeight:"18px",fontWeight:"400"}],"headline-lg":["36px",{lineHeight:"44px",fontWeight:"700"}],"body-lg":["16px",{lineHeight:"26px",fontWeight:"400"}],"display-hero":["48px",{lineHeight:"56px",fontWeight:"700"}],"headline-lg-mobile":["26px",{lineHeight:"34px",fontWeight:"700"}],"headline-md":["24px",{lineHeight:"32px",fontWeight:"600"}],"headline-sm":["18px",{lineHeight:"26px",fontWeight:"600"}],"body-md":["14px",{lineHeight:"22px",fontWeight:"400"}],"label-md":["13px",{lineHeight:"16px",fontWeight:"500"}],"numeric-metric":["32px",{lineHeight:"38px",fontWeight:"700"}],"display-hero-mobile":["32px",{lineHeight:"40px",fontWeight:"700"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between"><div class="flex items-center gap-3"><img alt="Finova Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XxHraD13k2DGfcVi8H3VMXC_aHHdkBDaQu7XK2gunZXo8bNO8RdlPyvnU40z2u5ikh_NnH9IPpJI1VI9XwAGl83SJp-z3N0HoeV8gUpOotAoCGk1JQnRbCVoiKBWRW25SDl7lbfBTjoW5tQiPa-ChomZkIw-ZHbr9kDTJ5901Dkz8VFXicW5LFWFNalBv_dq11AHQGcsJEEswTMYYK0WZ5qXV5eWVBZPm_L9N4NaDeYiiQqNNeHC1z8-c"/><span class="font-headline-sm text-headline-sm text-on-surface font-semibold tracking-tight">Finova</span></div><nav class="hidden md:flex items-center gap-8" data-active-classes="bg-surface-container text-on-surface font-semibold rounded-lg"><a aria-current="page" class="transition-colors bg-surface-container text-on-surface font-semibold rounded-lg" data-path="home" href="#">Features</a><a aria-current="page" class="transition-colors bg-surface-container text-on-surface font-semibold rounded-lg" data-path="home" href="#">Pricing</a><a aria-current="page" class="transition-colors bg-surface-container text-on-surface font-semibold rounded-lg" data-path="home" href="#">About</a><a aria-current="page" class="transition-colors bg-surface-container text-on-surface font-semibold rounded-lg" data-path="home" href="#">Testimonials</a></nav><div class="flex items-center gap-4"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors px-3 py-2" data-path="login" href="#">Login</a><a class="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-primary text-on-primary font-label-md text-label-md transition-all shadow-[0_4px_12px_rgba(73,62,229,0.24)] hover:bg-primary-container hover:text-on-primary-container" data-path="signup" href="#">Get Started</a><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHG8YISKasPqxFByW1bFCukqsvNRo4qno8k-OL2FmOKl9sZVTytUqdvn8NDni7hjuNNfdklrM_FsorCS8vIgO-Ln5Mu1uE1JkrJGE41b4nO9qwNPgIzSxEbM-z_3owr-GaB75LKuiFpK_3IgzurbY1VUQmdrotSKFSrNYayAnkN0N8wcJXWluqEtzhaTAXTh-vKN_uSrD2QNRRyrwtAUe6fchwPBBANNVj2ys8iOAEX9NZbQAkq3FX"/></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-16rem)]"><div class="flex flex-col w-full">
+<!-- Ambient background glow elements -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[720px] h-[360px] bg-primary/10 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-96 -right-24 w-80 h-80 bg-secondary-container/40 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-80 -left-20 w-80 h-80 bg-tertiary-fixed/20 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<!-- HERO SECTION -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 pt-12 pb-20 lg:pt-16 lg:pb-28">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Hero Left Column -->
+<div class="lg:col-span-6 flex flex-col items-start space-y-6">
+<!-- Notification Pill -->
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container shadow-sm hover:bg-surface-container-high transition-all">
+<span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm">✨</span>
+<span class="font-label-md text-label-md text-on-surface font-medium">Finova 2.0 is live: Next-Gen AI Financial Assistant</span>
+<span class="material-symbols-outlined text-[16px] text-primary">arrow_forward</span>
+</div>
+<!-- Main Headline -->
+<h1 class="font-display-hero text-display-hero text-on-surface tracking-tight max-w-xl">
+            Take control of your money. Build a better
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary-container to-tertiary">financial future.</span>
+</h1>
+<!-- Subhead -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-lg">
+            Manage your expenses, track your income, and reach your ambitious targets with real-time algorithmic analytics and zero latency.
+          </p>
+<!-- CTAs -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto pt-2">
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-semibold shadow-[0_8px_20px_rgba(73,62,229,0.28)] hover:bg-primary-container transition-all hover:scale-[1.02] active:scale-[0.98]" data-path="signup" href="#">
+<span>Get Started Free</span>
+<span class="material-symbols-outlined text-[18px]">bolt</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-surface-container-lowest text-on-surface font-label-md text-label-md font-semibold shadow-sm hover:bg-surface-container transition-all" href="#live-demo">
+<span class="material-symbols-outlined text-primary text-[20px]">play_circle</span>
+<span>View Interactive Demo</span>
+</a>
+</div>
+<!-- Quick Proof Indicators -->
+<div class="flex flex-wrap items-center gap-6 pt-4 text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-[18px]">verified</span>
+<span>No credit card required</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-[18px]">lock</span>
+<span>256-bit bank grade sync</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-[18px]">thumb_up</span>
+<span>4.9/5 from 42,000+ users</span>
+</div>
+</div>
+</div>
+<!-- Hero Right Column: Floating Glassmorphic App Tile Showcase -->
+<div class="lg:col-span-6 relative" id="live-demo">
+<!-- Background decorative glow halo -->
+<div class="absolute inset-0 bg-gradient-to-tr from-primary/10 via-tertiary/10 to-transparent rounded-3xl blur-2xl -z-10"></div>
+<!-- Main Floating Glass Container -->
+<div class="relative bg-surface-container-lowest/90 backdrop-blur-xl rounded-2xl p-6 lg:p-8 shadow-[0_12px_40px_rgba(15,23,42,0.08)]">
+<!-- Header of card -->
+<div class="flex items-center justify-between pb-6">
+<div>
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">Total Net Liquidity</p>
+<div class="flex items-baseline gap-3 mt-1">
+<h3 class="font-display-hero text-display-hero text-on-surface tracking-tight">$12,480.50</h3>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-bold">
+<span class="material-symbols-outlined text-[14px]">trending_up</span>
+                    +12.8%
+                  </span>
+</div>
+</div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-[24px]">account_balance_wallet</span>
+</div>
+</div>
+<!-- Mini Sparkline Card Overlay with Live SVG Curve -->
+<div class="w-full bg-surface-container-low rounded-xl p-4 mb-6">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm font-medium text-on-surface-variant">Portfolio Growth (30 Days)</span>
+<span class="font-label-sm text-label-sm text-tertiary font-bold">+$1,418.20</span>
+</div>
+<!-- Interactive Area Chart SVG -->
+<div class="w-full h-28 relative">
+<svg class="w-full h-full overflow-visible" preserveaspectratio="none" viewbox="0 0 400 100">
+<defs>
+<lineargradient id="areaGradient" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#493ee5" stop-opacity="0.32"></stop>
+<stop offset="100%" stop-color="#493ee5" stop-opacity="0.0"></stop>
+</lineargradient>
+</defs>
+<!-- Gradient Area -->
+<path d="M 0,85 Q 40,75 80,60 T 160,50 T 240,42 T 320,25 T 400,10 L 400,100 L 0,100 Z" fill="url(#areaGradient)"></path>
+<!-- Line Stroke -->
+<path d="M 0,85 Q 40,75 80,60 T 160,50 T 240,42 T 320,25 T 400,10" fill="none" stroke="#493ee5" stroke-linecap="round" stroke-width="3"></path>
+<!-- High watermark point -->
+<circle class="animate-pulse" cx="400" cy="10" fill="#493ee5" r="4.5"></circle>
+<circle cx="400" cy="10" fill="#493ee5" fill-opacity="0.2" r="9"></circle>
+</svg>
+</div>
+</div>
+<!-- Mini Stats Row -->
+<div class="grid grid-cols-2 gap-4 mb-6">
+<div class="bg-surface-container rounded-xl p-3.5 flex flex-col justify-between">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span class="font-label-sm text-label-sm font-medium">Monthly Inflow</span>
+<span class="material-symbols-outlined text-[16px] text-tertiary">arrow_downward</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">$4,250.00</p>
+<div class="w-full bg-surface-container-highest h-1 rounded-full mt-2 overflow-hidden">
+<div class="bg-tertiary h-full w-[82%] rounded-full"></div>
+</div>
+</div>
+<div class="bg-surface-container rounded-xl p-3.5 flex flex-col justify-between">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span class="font-label-sm text-label-sm font-medium">Savings Rate</span>
+<span class="material-symbols-outlined text-[16px] text-primary">pie_chart</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">38.4%</p>
+<div class="w-full bg-surface-container-highest h-1 rounded-full mt-2 overflow-hidden">
+<div class="bg-primary h-full w-[38.4%] rounded-full"></div>
+</div>
+</div>
+</div>
+<!-- Recent Activity Mini Strip -->
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-semibold text-on-surface-variant">Live Ledger Stream</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold cursor-pointer hover:underline">View All</span>
+</div>
+<div class="space-y-2.5">
+<div class="flex items-center justify-between p-2.5 rounded-lg bg-surface-container hover:bg-surface-container-high transition-colors">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-lg bg-primary-fixed flex items-center justify-center text-on-primary-fixed font-label-sm text-label-sm font-bold">
+                      St
+                    </div>
+<div>
+<p class="font-body-md text-body-md font-semibold text-on-surface leading-snug">Stripe Payout · Client Project</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Today, 2:14 PM</p>
+</div>
+</div>
+<span class="font-headline-sm text-headline-sm text-tertiary font-bold">+$1,840.00</span>
+</div>
+<div class="flex items-center justify-between p-2.5 rounded-lg bg-surface-container hover:bg-surface-container-high transition-colors">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-lg bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed font-label-sm text-label-sm font-bold">
+                      Am
+                    </div>
+<div>
+<p class="font-body-md text-body-md font-semibold text-on-surface leading-snug">Amazon Web Services</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Yesterday, 9:20 AM</p>
+</div>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">-$64.20</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Floating Badge Attached to Bottom-Right -->
+<div class="absolute -bottom-6 -left-6 bg-surface-container-lowest rounded-xl p-3.5 shadow-xl flex items-center gap-3 max-w-xs backdrop-blur-md">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed">
+<span class="material-symbols-outlined text-[20px]">smart_toy</span>
+</div>
+<div>
+<p class="font-label-sm text-label-sm font-bold text-on-surface">Finova AI Advice</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Save $120 more this week to hit Japan Trip goal.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- TRUSTED BY / SOCIAL PROOF STRIP -->
+<section class="w-full bg-surface-container-low py-12">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col md:flex-row items-center justify-between gap-8">
+<div class="md:w-1/4">
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">
+          Institutional Security
+        </p>
+<p class="font-body-md text-body-md text-on-surface font-medium mt-0.5">
+          Synchronizing securely with 11,000+ banks globally
+        </p>
+</div>
+<!-- Partner Logos Row -->
+<div class="md:w-3/4 flex flex-wrap items-center justify-between gap-8 opacity-75 grayscale hover:grayscale-0 transition-all">
+<div class="flex items-center gap-2 font-headline-md text-headline-md font-bold tracking-tight text-on-surface">
+<span class="material-symbols-outlined text-primary text-[28px]">payments</span> Stripe
+        </div>
+<div class="flex items-center gap-2 font-headline-md text-headline-md font-bold tracking-tight text-on-surface">
+<span class="material-symbols-outlined text-tertiary text-[28px]">hub</span> Plaid
+        </div>
+<div class="flex items-center gap-2 font-headline-md text-headline-md font-bold tracking-tight text-on-surface">
+<span class="material-symbols-outlined text-primary text-[28px]">credit_card</span> Revolut
+        </div>
+<div class="flex items-center gap-2 font-headline-md text-headline-md font-bold tracking-tight text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[28px]">account_balance</span> Monzo
+        </div>
+<div class="flex items-center gap-2 font-headline-md text-headline-md font-bold tracking-tight text-on-surface">
+<span class="material-symbols-outlined text-tertiary-container text-[28px]">public</span> Wise
+        </div>
+</div>
+</div>
+</section>
+<!-- CORE VALUE PROPOSITIONS / FEATURES GRID -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-24">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold mb-4">
+        Engineered for Absolute Clarity
+      </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+        Modern financial architecture at your fingertips.
+      </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-3">
+        Replace clunky spreadsheets and outdated bank apps with an intelligent personal ledger that works proactively for you.
+      </p>
+</div>
+<!-- 4 Bento Feature Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8">
+<!-- Feature 1: Track expenses -->
+<div class="lg:col-span-6 bg-surface-container-lowest rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px]">receipt_long</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold">Track your expenses effortlessly</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+            Instant categorization using fine-tuned machine learning models. Snap a receipt or connect card feeds for real-time anomaly detection and tax deductibility scoring.
+          </p>
+</div>
+<!-- Interactive Visual Sub-card -->
+<div class="mt-8 bg-surface-container rounded-xl p-5 space-y-3">
+<div class="flex items-center justify-between text-on-surface font-label-md text-label-md">
+<span class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+              Subscriptions & Cloud
+            </span>
+<span class="font-bold">$342.00 / mo</span>
+</div>
+<div class="w-full bg-surface-container-highest h-2 rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[65%] rounded-full"></div>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm pt-1">
+<span>12 active recurring subscriptions</span>
+<span class="text-error font-semibold">2 price hikes flagged</span>
+</div>
+</div>
+</div>
+<!-- Feature 2: Manage Budget -->
+<div class="lg:col-span-6 bg-surface-container-lowest rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px]">account_tree</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold">Dynamic envelope budgeting</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+            Divide your cash flow automatically into custom envelopes. Leftover balances intelligently roll into high-yield vaults or emergency cushions.
+          </p>
+</div>
+<div class="mt-8 bg-surface-container rounded-xl p-5 space-y-3">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md font-semibold text-on-surface">Dining & Experiences</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">$480 of $600 spent</span>
+</div>
+<div class="w-full bg-surface-container-highest h-2.5 rounded-full overflow-hidden">
+<div class="bg-tertiary h-full w-[80%] rounded-full"></div>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span class="text-tertiary font-medium">Safe spending: $17.14 / day left</span>
+<span>80% utilized</span>
+</div>
+</div>
+</div>
+<!-- Feature 3: Reach Goals (Bucket Rings) -->
+<div class="lg:col-span-7 bg-surface-container-lowest rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="w-12 h-12 rounded-xl bg-secondary-container text-on-secondary-container flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px]">flag</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold">Reach your ambitious goals</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+            Create multi-horizon savings goals with dedicated sub-ledgers. Visual progress rings and AI micro-roundups accelerate your milestones.
+          </p>
+</div>
+<div class="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4">
+<!-- Bucket 1 -->
+<div class="bg-surface-container rounded-xl p-4 flex flex-col items-center text-center">
+<div class="relative w-16 h-16 my-2">
+<svg class="w-full h-full transform -rotate-90" viewbox="0 0 36 36">
+<path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#e0e3e5" stroke-width="3"></path>
+<path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#493ee5" stroke-dasharray="88, 100" stroke-linecap="round" stroke-width="3"></path>
+</svg>
+<div class="absolute inset-0 flex items-center justify-center font-label-md text-label-md font-bold text-on-surface">88%</div>
+</div>
+<p class="font-label-md text-label-md font-semibold text-on-surface mt-1">Emergency Fund</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">$17,600 / $20k</p>
+</div>
+<!-- Bucket 2 -->
+<div class="bg-surface-container rounded-xl p-4 flex flex-col items-center text-center">
+<div class="relative w-16 h-16 my-2">
+<svg class="w-full h-full transform -rotate-90" viewbox="0 0 36 36">
+<path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#e0e3e5" stroke-width="3"></path>
+<path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#006847" stroke-dasharray="64, 100" stroke-linecap="round" stroke-width="3"></path>
+</svg>
+<div class="absolute inset-0 flex items-center justify-center font-label-md text-label-md font-bold text-on-surface">64%</div>
+</div>
+<p class="font-label-md text-label-md font-semibold text-on-surface mt-1">Japan Autumn '25</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">$3,200 / $5k</p>
+</div>
+<!-- Bucket 3 -->
+<div class="bg-surface-container rounded-xl p-4 flex flex-col items-center text-center">
+<div class="relative w-16 h-16 my-2">
+<svg class="w-full h-full transform -rotate-90" viewbox="0 0 36 36">
+<path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#e0e3e5" stroke-width="3"></path>
+<path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#565e74" stroke-dasharray="42, 100" stroke-linecap="round" stroke-width="3"></path>
+</svg>
+<div class="absolute inset-0 flex items-center justify-center font-label-md text-label-md font-bold text-on-surface">42%</div>
+</div>
+<p class="font-label-md text-label-md font-semibold text-on-surface mt-1">House Deposit</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">$42,000 / $100k</p>
+</div>
+</div>
+</div>
+<!-- Feature 4: Bank-grade Security -->
+<div class="lg:col-span-5 bg-surface-container-lowest rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed-dim/30 text-tertiary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px]">shield</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold">Institutional Grade Defense</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+            Read-only encryption protocols guarantee that your credentials and funds are unreachable. We never sell your personal data.
+          </p>
+</div>
+<div class="mt-8 space-y-3">
+<div class="flex items-center gap-3 p-3 rounded-lg bg-surface-container">
+<span class="material-symbols-outlined text-tertiary text-[20px]">fingerprint</span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface">FIDO2 Biometric WebAuthn</span>
+</div>
+<div class="flex items-center gap-3 p-3 rounded-lg bg-surface-container">
+<span class="material-symbols-outlined text-primary text-[20px]">enhanced_encryption</span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface">AES-256 at Rest & TLS 1.3 in Flight</span>
+</div>
+<div class="flex items-center gap-3 p-3 rounded-lg bg-surface-container">
+<span class="material-symbols-outlined text-secondary text-[20px]">visibility_off</span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface">Strict Zero-Knowledge Data Model</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- INTERACTIVE SAVINGS & ROI CALCULATOR -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-16 w-full">
+<div class="bg-surface-container-lowest rounded-3xl p-8 lg:p-14 shadow-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Controls Left -->
+<div class="lg:col-span-6 flex flex-col space-y-8">
+<div>
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-semibold mb-3">
+              Interactive Projections
+            </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold">
+              Calculate your capital trajectory.
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+              Adjust your monthly net income and target savings percentage to witness the power of compounding with Finova high-yield optimization.
+            </p>
+</div>
+<!-- Slider 1: Income -->
+<div class="space-y-3">
+<div class="flex items-center justify-between">
+<label class="font-label-md text-label-md font-semibold text-on-surface" for="income-slider">Monthly Net Inflow</label>
+<span class="font-headline-sm text-headline-sm font-bold text-primary" id="income-display">$6,500</span>
+</div>
+<input class="w-full h-2.5 bg-surface-container-high rounded-lg appearance-none cursor-pointer accent-primary" id="income-slider" max="25000" min="2000" step="500" type="range" value="6500"/>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>$2,000</span>
+<span>$25,000+</span>
+</div>
+</div>
+<!-- Slider 2: Savings Rate -->
+<div class="space-y-3">
+<div class="flex items-center justify-between">
+<label class="font-label-md text-label-md font-semibold text-on-surface" for="rate-slider">Target Savings Rate</label>
+<span class="font-headline-sm text-headline-sm font-bold text-tertiary" id="rate-display">30%</span>
+</div>
+<input class="w-full h-2.5 bg-surface-container-high rounded-lg appearance-none cursor-pointer accent-tertiary" id="rate-slider" max="60" min="5" step="1" type="range" value="30"/>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>5%</span>
+<span>60%</span>
+</div>
+</div>
+<!-- Monthly deposit preview note -->
+<div class="p-4 rounded-xl bg-surface-container flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[24px]">savings</span>
+<div>
+<p class="font-label-md text-label-md font-semibold text-on-surface">Automated Monthly Capital Allocation</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant font-medium" id="monthly-savings-calc">$1,950 allocated toward wealth buckets each month.</p>
+</div>
+</div>
+</div>
+<!-- Calculated Outcome Right -->
+<div class="lg:col-span-6 bg-surface-container-low rounded-2xl p-8 flex flex-col justify-between space-y-8">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md font-semibold text-on-surface-variant uppercase tracking-wider">Compounded Forecast</span>
+<span class="px-3 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-bold">Assumes 6.8% APY yield</span>
+</div>
+<!-- 3 Horizon Metric Boxes -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+<div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm">
+<p class="font-label-sm text-label-sm font-semibold text-on-surface-variant">In 1 Year</p>
+<p class="font-numeric-metric text-numeric-metric text-on-surface font-bold mt-1" id="calc-year-1">$24,210</p>
+<p class="font-body-sm text-body-sm text-tertiary font-medium mt-1">+ $810 yield</p>
+</div>
+<div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm">
+<p class="font-label-sm text-label-sm font-semibold text-on-surface-variant">In 3 Years</p>
+<p class="font-numeric-metric text-numeric-metric text-on-surface font-bold mt-1" id="calc-year-3">$78,440</p>
+<p class="font-body-sm text-body-sm text-tertiary font-medium mt-1">+ $8,240 yield</p>
+</div>
+<div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm">
+<p class="font-label-sm text-label-sm font-semibold text-on-surface-variant">In 5 Years</p>
+<p class="font-numeric-metric text-numeric-metric text-primary font-bold mt-1" id="calc-year-5">$142,650</p>
+<p class="font-body-sm text-body-sm text-tertiary font-medium mt-1">+ $25,650 yield</p>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Based on historical automated vault allocations and daily interest sweeps. Capital at risk. Results are projections, not guarantees.
+          </p>
+<a class="w-full inline-flex items-center justify-center gap-2 py-3.5 px-6 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-semibold hover:bg-primary-container shadow-md transition-all" data-path="signup" href="#">
+<span>Lock in this plan with Finova</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- CUSTOMER TESTIMONIALS -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-20">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold mb-3">
+        Trusted by Modern Builders
+      </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold">
+        Loved by founders, creators, and professionals.
+      </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-2">
+        See how Finova transformed their relationship with personal capital and cash reserves.
+      </p>
+</div>
+<!-- 3 High-density Feedback Cards with Photos -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Testimonial 1 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 text-tertiary mb-4">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+            "Finova eliminated four disparate spreadsheet tabs I maintained for 5 years. The automatic vault sweep feature saved me an extra $1,200 this past quarter alone."
+          </p>
+</div>
+<div class="flex items-center gap-3 pt-6 mt-6">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="Professional headshot photo of an Asian woman founder smiling warmly in a modern minimalist tech office setting, crisp natural lighting, soft bokeh background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxPommlFm36JYchv7IncojZWz65t2kibjaRT-SkQApwy6ijaANzkvfF2itl23uIiJ08vl268s0nZYMo2rkc719jivsn7BEwFWbwZJaAhG80u0jtHHFBM-FbbQ9Otxu5G8YSHjteoLOozwkcsuWGuzNprMLLleyfbVXFlZdFPajukApZyluod0KDwtl_HK7kwl_TmWLyfP30Pt-xEQ8Vq06z4vQmSOpVTBGh4_EOC75AZroy8XbbSOB"/>
+<div>
+<h4 class="font-label-md text-label-md font-bold text-on-surface">Elena Rostova</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Founder at NovaDesign Studio</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 text-tertiary mb-4">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+            "As an independent contractor with variable monthly income, dynamic envelope budgeting is the single greatest tool I've used. I always know my safe-to-spend limit."
+          </p>
+</div>
+<div class="flex items-center gap-3 pt-6 mt-6">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="Portrait photo of a young modern man with glasses and casual blazer, calm confident expression in a bright Scandinavian co-working lounge, gentle ambient sunlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBK6oymbwMiROautEoWKLcA_GADunEe17dC92JsZk0WN-da-ojKdibpvneb1h1XrrHo3WR4r4kjsumSmQ6g1EfYtr3PBUYBaX4dCQtOf8zZF5JBD5cQ4dvwPren2VJsJxMI1pP3hT8KSu09NdSjgHJ-xtY0AZx2AXeHOCtL7yvwwN5xhi0Nk0o6O53yrJpD1_XiMtgpcOTomWM_y1NZpMhPOnNh6men5iAAc6CXgQNWN2R6UexqNysE"/>
+<div>
+<h4 class="font-label-md text-label-md font-bold text-on-surface">Marcus Sterling</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Lead Full-Stack Freelancer</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 text-tertiary mb-4">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+            "The bank sync is truly real-time. Other apps take 48 hours to display transactions; Finova categorizes before I even exit the coffee shop. Unreal polish."
+          </p>
+</div>
+<div class="flex items-center gap-3 pt-6 mt-6">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="Editorial portrait of a Black female fintech product manager wearing smart casual attire, smiling directly into the camera in an architectural studio setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWNymyktw6BB3JE0UaQk1Bc7rDCf1luaGRRPd85Bgt9PR7mcudoKD5pLdVgkLs3d27pZKxhQWZtcOZZVrVxjDca7Mx4J4Iet8SdYvovH0x2f9DMfUYQGLiqOdUMaMDjbPkJyPc1H5lFEyVcZ11a2U-Ymtaus7b1Dvvw9LOHoI1HYmSDSsnlW8UDpdWcc1LYBqkWP14v1br0YX0SzR9vpgzag__l6s2ezhwfcqT8EG0mmKrnAX36v_S"/>
+<div>
+<h4 class="font-label-md text-label-md font-bold text-on-surface">Amara Okafor</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Senior Product Lead</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- PRICING TIERS SECTION -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-20 w-full">
+<div class="text-center max-w-xl mx-auto mb-16">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold mb-3">
+        Transparent Pricing
+      </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold">
+        Zero hidden costs. Upgrade anytime.
+      </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-2">
+        Start free forever. Unlock algorithmic automation when you are ready to scale.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto items-stretch">
+<!-- Free Plan -->
+<div class="bg-surface-container-lowest rounded-2xl p-8 shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-center mb-4">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">Starter</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant font-semibold">Free Forever</span>
+</div>
+<div class="flex items-baseline gap-2 mb-6">
+<span class="font-display-hero text-display-hero font-bold text-on-surface">$0</span>
+<span class="font-body-md text-body-md text-on-surface-variant">/ month</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+            Essential financial overview for individuals beginning their wealth tracking journey.
+          </p>
+<ul class="space-y-3 font-body-sm text-body-sm text-on-surface mb-8">
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-tertiary text-[18px]">check_circle</span>
+<span>Sync up to 3 bank accounts</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-tertiary text-[18px]">check_circle</span>
+<span>Manual & automated expense tagging</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-tertiary text-[18px]">check_circle</span>
+<span>2 dynamic savings target buckets</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-tertiary text-[18px]">check_circle</span>
+<span>Standard 256-bit bank encryption</span>
+</li>
+</ul>
+</div>
+<a class="w-full inline-flex items-center justify-center py-3 rounded-xl bg-surface-container text-on-surface font-label-md text-label-md font-semibold hover:bg-surface-container-high transition-all" data-path="signup" href="#">
+          Start for Free
+        </a>
+</div>
+<!-- Pro Plan (Featured) -->
+<div class="bg-surface-container-lowest rounded-2xl p-8 shadow-xl relative flex flex-col justify-between">
+<!-- Floating Popular Badge -->
+<div class="absolute -top-3.5 right-8 bg-primary text-on-primary px-3 py-1 rounded-full font-label-sm text-label-sm font-bold shadow-md">
+          Most Popular
+        </div>
+<div>
+<div class="flex justify-between items-center mb-4">
+<span class="font-headline-sm text-headline-sm font-bold text-primary">Pro Wealth</span>
+<span class="px-2.5 py-1 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-semibold">Billed annually</span>
+</div>
+<div class="flex items-baseline gap-2 mb-6">
+<span class="font-display-hero text-display-hero font-bold text-on-surface">$8</span>
+<span class="font-body-md text-body-md text-on-surface-variant">/ month</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+            Full AI copilot suite, infinite bank connections, and smart automated vault sweeps.
+          </p>
+<ul class="space-y-3 font-body-sm text-body-sm text-on-surface mb-8">
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+<span><strong>Unlimited</strong> accounts and global crypto wallets</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+<span>AI automated receipt OCR & tax tags</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+<span>Infinite savings buckets & auto-sweeps</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+<span>Custom predictive cash-flow forecasting</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+<span>Priority 24/7 concierge support</span>
+</li>
+</ul>
+</div>
+<a class="w-full inline-flex items-center justify-center py-3.5 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-semibold shadow-[0_4px_16px_rgba(73,62,229,0.3)] hover:bg-primary-container transition-all" data-path="signup" href="#">
+          Get Started with Pro (14-Day Trial)
+        </a>
+</div>
+</div>
+</section>
+<!-- HIGH-IMPACT FINAL CALL TO ACTION BANNER -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-16 w-full">
+<div class="relative bg-inverse-surface text-inverse-on-surface rounded-3xl p-8 sm:p-12 lg:p-16 overflow-hidden shadow-2xl">
+<!-- Background Ambient Radial Glow -->
+<div class="absolute -top-32 -right-32 w-96 h-96 bg-primary/30 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-32 -left-32 w-96 h-96 bg-tertiary-container/30 rounded-full blur-3xl pointer-events-none"></div>
+<div class="relative z-10 max-w-2xl mx-auto text-center flex flex-col items-center space-y-6">
+<span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-variant/20 text-inverse-primary font-label-sm text-label-sm font-semibold">
+          Seamless onboarding in under 60 seconds
+        </span>
+<h2 class="font-headline-lg text-headline-lg sm:text-[44px] font-bold tracking-tight text-surface-container-lowest">
+          Ready to build real wealth?
+        </h2>
+<p class="font-body-lg text-body-lg text-outline-variant max-w-lg">
+          Join over 42,000 ambitious professionals who make calculated, calm financial decisions every day with Finova.
+        </p>
+<!-- Instant Email Signup Form -->
+<form class="flex flex-col sm:flex-row items-center gap-3 w-full max-w-md pt-2" onsubmit="event.preventDefault();">
+<input class="w-full px-4 py-3.5 rounded-xl bg-surface-container-lowest text-on-surface font-body-md text-body-md placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" placeholder="Enter your email address" required="" type="email"/>
+<button class="w-full sm:w-auto shrink-0 inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-semibold shadow-lg hover:bg-primary-container transition-all" type="submit">
+<span>Start for free</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</form>
+<p class="font-body-sm text-body-sm text-outline-variant">
+          Free 14-day trial of Pro features · Cancel anytime · SOC2 Type II Certified
+        </p>
+</div>
+</div>
+</section>
+<!-- Interactive Calculator JavaScript logic -->
+<script>
+    (function () {
+      const incomeSlider = document.getElementById('income-slider');
+      const rateSlider = document.getElementById('rate-slider');
+      const incomeDisplay = document.getElementById('income-display');
+      const rateDisplay = document.getElementById('rate-display');
+      const monthlySavingsCalc = document.getElementById('monthly-savings-calc');
+      const year1Display = document.getElementById('calc-year-1');
+      const year3Display = document.getElementById('calc-year-3');
+      const year5Display = document.getElementById('calc-year-5');
+
+      function calculateCompound(monthlyDeposit, years, annualRate) {
+        const monthlyRate = annualRate / 12;
+        const totalMonths = years * 12;
+        let total = 0;
+        for (let i = 0; i < totalMonths; i++) {
+          total = (total + monthlyDeposit) * (1 + monthlyRate);
+        }
+        return Math.round(total);
+      }
+
+      function updateCalculator() {
+        if (!incomeSlider || !rateSlider) return;
+        const income = parseFloat(incomeSlider.value);
+        const rate = parseFloat(rateSlider.value);
+        const monthlySavings = (income * (rate / 100));
+
+        incomeDisplay.textContent = '$' + income.toLocaleString();
+        rateDisplay.textContent = rate + '%';
+        monthlySavingsCalc.textContent = '$' + Math.round(monthlySavings).toLocaleString() + ' allocated toward wealth buckets each month.';
+
+        const y1 = calculateCompound(monthlySavings, 1, 0.068);
+        const y3 = calculateCompound(monthlySavings, 3, 0.068);
+        const y5 = calculateCompound(monthlySavings, 5, 0.068);
+
+        year1Display.textContent = '$' + y1.toLocaleString();
+        year3Display.textContent = '$' + y3.toLocaleString();
+        year5Display.textContent = '$' + y5.toLocaleString();
+      }
+
+      if (incomeSlider && rateSlider) {
+        incomeSlider.addEventListener('input', updateCalculator);
+        rateSlider.addEventListener('input', updateCalculator);
+        updateCalculator();
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-low mt-20"><div class="max-w-7xl mx-auto px-6 lg:px-12 py-16"><div class="grid grid-cols-1 md:grid-cols-5 gap-10"><div class="md:col-span-2 flex flex-col gap-4"><div class="flex items-center gap-3"><img alt="Finova Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XxHraD13k2DGfcVi8H3VMXC_aHHdkBDaQu7XK2gunZXo8bNO8RdlPyvnU40z2u5ikh_NnH9IPpJI1VI9XwAGl83SJp-z3N0HoeV8gUpOotAoCGk1JQnRbCVoiKBWRW25SDl7lbfBTjoW5tQiPa-ChomZkIw-ZHbr9kDTJ5901Dkz8VFXicW5LFWFNalBv_dq11AHQGcsJEEswTMYYK0WZ5qXV5eWVBZPm_L9N4NaDeYiiQqNNeHC1z8-c"/><span class="font-headline-sm text-headline-sm text-on-surface font-semibold">Finova</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Algorithmic precision and effortless capital clarity. Modern wealth management engineered for high-growth individuals.</p><div class="flex items-center gap-3 text-on-surface-variant"><span class="material-symbols-outlined text-[20px]">verified_user</span><span class="font-body-sm text-body-sm">Bank-grade 256-bit encryption</span></div></div><div class="flex flex-col gap-3"><h4 class="font-label-md text-label-md uppercase tracking-wider text-on-surface">Product</h4><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Wealth Engine</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Smart Vaults</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Portfolio Analytics</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Security & Trust</a></div><div class="flex flex-col gap-3"><h4 class="font-label-md text-label-md uppercase tracking-wider text-on-surface">Resources</h4><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Documentation</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Market Insights</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">API Reference</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">System Status</a></div><div class="flex flex-col gap-3"><h4 class="font-label-md text-label-md uppercase tracking-wider text-on-surface">Company</h4><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">About Finova</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Careers</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Privacy Policy</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Terms of Service</a></div></div><div class="mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4"><p class="font-body-sm text-body-sm text-on-surface-variant">© 2025 Finova Technologies, Inc. All rights reserved.</p><div class="flex items-center gap-6"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Privacy</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Security</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Cookies</a></div></div></div></footer></body></html>
